@@ -1,0 +1,22 @@
+# Backend dependencies
+fastapi
+uvicorn
+sqlalchemy
+databases
+python-dotenv
+requests
+pydantic
+aiofiles
+httpx
+
+# AI-related dependencies
+openai
+tiktoken  # For token counting in OpenAI API
+
+# Authentication & Security
+passlib[bcrypt]  # Password hashing
+python-multipart  # For handling form data (needed for user authentication)
+pyjwt  # JWT authentication
+
+# Frontend-related dependencies (if applicable)
+jinja2  # If using templates for rendering HTML
